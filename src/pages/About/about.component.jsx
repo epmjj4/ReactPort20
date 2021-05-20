@@ -5,9 +5,11 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
+
+
 import Profile from '../../assets/Me1.jpg';
 
-import './about.style.css';
+import './About.style.css';
 
 const About = () => {
     return (
@@ -34,32 +36,32 @@ const About = () => {
                                 <Col className='d-flex justify-content-center flex-wrap'>
                                     <div>
                                         <a href="#contact">
-                                            <Button className='m-2' variant="outline-primary">
+                                            <Button className='m-2 bg-light' variant="outline-primary">
                                                 Let's Talk
                                         </Button>
                                         </a>
                                     </div>
                                     <div>
-                    <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-success">
-                        My Resume
+                                        <a href="https://drive.google.com/file/d/1wBRn3wwCCyjFUvIrk_FDiiHCbAn1McGM/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                            <Button className="m-2 bg-light" variant="outline-success">
+                                                My Resume
                       </Button>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://github.com/epmjj4" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-dark">
-                        GitHub
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://github.com/epmjj4" target="_blank" rel="noopener noreferrer">
+                                            <Button className="m-2 bg-light" variant="outline-dark">
+                                                GitHub
                       </Button>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://www.linkedin.com/in/ernesto-pelaez-421ba071/" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
-                        LinkedIn
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.linkedin.com/in/ernesto-pelaez-421ba071/" target="_blank" rel="noopener noreferrer">
+                                            <Button className="m-2 bg-light" variant="outline-info">
+                                                LinkedIn
                       </Button>
-                    </a>
-                  </div>
+                                        </a>
+                                    </div>
                                 </Col>
 
                             </Row>
