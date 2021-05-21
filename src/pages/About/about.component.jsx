@@ -34,13 +34,13 @@ const About = () => {
                             <Row>
                                 {/* buttons */}
                                 <Col className='d-flex justify-content-center flex-wrap'>
-                                    <div>
+                                    {/* <div>
                                         <a href="#contact">
                                             <Button className='m-2 bg-light' variant="outline-primary">
                                                 Let's Talk
                                         </Button>
                                         </a>
-                                    </div>
+                                    </div> */}
                                     <div>
                                         <a href="https://drive.google.com/file/d/1wBRn3wwCCyjFUvIrk_FDiiHCbAn1McGM/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                             <Button className="m-2 bg-light" variant="outline-success">
