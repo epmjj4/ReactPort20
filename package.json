@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/epmjj4/react-port2",
   "name": "react-port2",
   "version": "0.1.0",
   "engines": {
@@ -6,6 +7,7 @@
     "npm": "6.14.12"
   },
   "dependencies": {
+    "@merc/react-timeline": "^0.1.42",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -22,6 +24,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

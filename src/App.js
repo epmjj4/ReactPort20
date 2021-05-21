@@ -2,6 +2,8 @@ import "./App.css";
 import Fade from "react-reveal/Fade";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
+import ProjectTimeline from "./components/Project-Timeline/ProjectTimeline.component";
+// import Slide from ""
 
 //imported components
 import MyNavBar from "./components/Nav/MyNavBar";
@@ -31,6 +33,16 @@ const App = () => {
               </Fade>
             </Container>
           </div>
+          {/* Project timeline */}
+          <div>
+            <Container className="container-box rounded">
+              
+                
+                <ProjectTimeline />
+              
+            </Container>
+          </div>
+          ProjectTimeline
         </Parallax>
       </div>
     </div>

@@ -4,7 +4,7 @@ import Slide1 from '../../assets/Slide1.png';
 import Slide2 from '../../assets/Slide2.png';
 import Slide3 from '../../assets/Slide3.png';
 import Slide4 from '../../assets/Slide4.png';
-import ScrollDown from '../ScrollDown/scroll-down.compoent';
+import ScrollDown from '../ScrollDown/scroll-down.component';
 
 
 import './MyCarousel.style.css';
